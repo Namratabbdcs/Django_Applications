@@ -52,7 +52,7 @@
 
 # Panel - Login through website
 
-    - If we ant to login through djano panel, we need to create a superuser first.
+    - If we want to login through django panel, we need to create a superuser first.
         - python manage.py createsuperuser
 
 #### 1.Admin(admin will be the superuser)
@@ -69,12 +69,13 @@
     - Username: delivery_boy
     - password: password
 
-# API Functions - We can use the below API's t perform the task
+# API Functions - We can use the below API's to perform the task
 
 #### 1. add_order
 
 - Request: We can add the order in database using this API.
     -Ref:
+        
         - http://127.0.0.1:8000/api/v1/add_order?order_no=1a&title=noodles&status=free&priority=medium&task=declined
 
 #### 1. get_details
